@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use work.int_array.all;
+
+entity Player is
+    Port ( CLOCK     : in  std_logic;                             -- Clock 50 Mhz
+           pos_x: out array_of_int_7 := (80, 560, 320, 80, 560, 320, 320);		-- x coordinates of each block
+			  pos_y: out array_of_int_7 := (160, 160, 240, 320, 320, 400, 480);		-- y coordinates of each block
+			  size_x: out array_of_int_7 := (160, 160, 320, 160, 160, 320, 640);		-- x size of each block
+			  size_y: out array_of_int_7 := (20, 20, 20, 20, 20, 20, 20)		-- y size of each block
+           );
+end Player;
+
+architecture Player_arch of Player is
+	
+
+begin
+
+  process (CLOCK)
+  begin
+ 
+  end process;
+
+end Player_arch;

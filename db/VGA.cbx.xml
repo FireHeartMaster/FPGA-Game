@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="VGA">
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_cqo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_cqo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_cqo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|pll25:pll25_inst|altpll:altpll_component" CBX_FILE_NAME="pll25_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

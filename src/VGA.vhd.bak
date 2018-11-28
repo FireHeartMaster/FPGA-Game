@@ -1,0 +1,37 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+-- sélectionner les bibliothèques dont vous aurez besoin
+-- use IEEE.numeric_std.all;
+-- use IEEE.std_logic_unsigned.all;
+-- use IEEE.std_logic_signed.all;
+
+
+entity myfile is
+    port (
+
+-- liste des entrées sorties
+
+-- name : mode type ;
+
+    );
+end myfile;
+
+architecture myfile_arch of myfile is
+
+-- signal declaration
+-- signal  name : type  := valeur initiale;
+
+begin
+ 
+-- process (clk)
+--  begin
+
+-- 	if rising_edge(clk) then
+
+-- 	end if;
+
+-- end process;	
+
+
+end myfile_arch;
